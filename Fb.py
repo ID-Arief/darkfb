@@ -24,6 +24,15 @@ br.set_handle_robots(False)
 br.set_handle_refresh(mechanize._http.HTTPRefreshProcessor(), max_time=1)
 br.addheaders = [('User-Agent', 'Opera/9.80 (Android; Opera Mini/36.2.2254/119.132; U; id) Presto/2.12.423 Version/12.16')]
 
+#di isi dengan bener ya username password nya
+x = "username"
+y = "password"
+
+def login():
+    os system("clear"):
+    user = raw_input("username : ')
+    pasw = raw_input("password : ')
+    if user == x and pasw == y:
 
 def keluar():
     print '\x1b[1;91m[!] Tutup'
