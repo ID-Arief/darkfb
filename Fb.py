@@ -36,7 +36,7 @@ def login():
         print "login sukses"
         time.sleep(2)
         sys.exit
-    else
+    else:
          print "password salah"
          login()
 
