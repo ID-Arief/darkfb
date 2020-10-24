@@ -33,6 +33,15 @@ def login():
     user = raw_input("username : ')
     pasw = raw_input("password : ')
     if user == x and pasw == y:
+        print "login sukses"
+        time.sleep(2)
+        sys.exit
+    else:
+         print "password salah"
+         login()
+
+if __name__== "__main__":
+      login()  
 
 def keluar():
     print '\x1b[1;91m[!] Tutup'
