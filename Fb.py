@@ -29,7 +29,7 @@ x = "username"
 y = "password"
 
 def login():
-    os system('clear'):
+    os.system('clear'):
     user = raw_input("username : ')
     pasw = raw_input("password : ')
     if user == x and pasw == y:
