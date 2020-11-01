@@ -110,9 +110,9 @@ def lisensi():
 def masuk():
 	os.system('reset')
 	print logo
-	print "\033[1;91m║--\033[1;91m> \033[1;95m1.\33[0;36m Login"
-	print "\033[1;92m║--\033[1;91m> \033[1;95m2.\33[0;36m Login using token"
-	print "\033[1;93m║--\033[1;91m> \033[1;95m0.\33[0;36m Exit"
+	print "\033[1;91m║--\033[1;91m> \33[1;33m1.\33[0;36m Login"
+	print "\033[1;92m║--\033[1;91m> \33[1;33m2.\33[0;36m Login using token"
+	print "\033[1;93m║--\033[1;91m> \33[1;33m0.\33[0;36m Exit"
 	print "\033[1;95m║"
 	msuk = raw_input("\033[1;96m╚═\033[1;1mD \033[1;93m")
 	if msuk =="":
