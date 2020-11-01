@@ -110,9 +110,9 @@ def lisensi():
 def masuk():
 	os.system('reset')
 	print logo
-	print "\033[1;91m║--\033[1;91m> \033[1;95m1.\033[1;96m Login"
-	print "\033[1;92m║--\033[1;91m> \033[1;95m2.\033[1;96m Login using token"
-	print "\033[1;93m║--\033[1;91m> \033[1;95m0.\033[1;96m Exit"
+	print "\033[1;91m║--\033[1;91m> \033[1;95m1.\33[0;36m Login"
+	print "\033[1;92m║--\033[1;91m> \033[1;95m2.\33[0;36m Login using token"
+	print "\033[1;93m║--\033[1;91m> \033[1;95m0.\33[0;36m Exit"
 	print "\033[1;95m║"
 	msuk = raw_input("\033[1;96m╚═\033[1;1mD \033[1;93m")
 	if msuk =="":
@@ -138,8 +138,8 @@ def login():
 	except (KeyError,IOError):
 		os.system('reset')
 		print logo
-		print('\033[1;96m[☆] \033[1;92mLOGIN AKUN FACEBOOK \033[1;91m[☆]')
-		id = raw_input('\033[1;91m[+] \033[1;36mID\033[1;97m|\033[1;96mEmail\033[1;97m \033[1;91m:\033[1;92m ')
+		print('\033[1;96m[☆] \33[1;33mLOGIN AKUN FACEBOOK \033[1;91m[☆]')
+		id = raw_input('\033[1;91m[+] \033[1;36mID\033[1;97m|\33[1;33mEmail\033[1;97m \033[1;91m:\033[1;92m ')
 		pwd = getpass.getpass('\033[1;95m[+] \033[1;93mPassword \033[1;93m:\033[1;95m ')
 		tik()
 		try:
